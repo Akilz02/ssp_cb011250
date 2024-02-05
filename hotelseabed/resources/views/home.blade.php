@@ -275,7 +275,7 @@
                             <img src="assets/img/customer/customar1.png" class="customar-img1" alt="">
                             <img src="assets/img/customer/customar2.png" class="customar-img2" alt="">
                             <div class="service-experience heartbeat">
-                                <h3>25 Years of Service<br>Experience</h3>
+                                <h3>8 Years of Service<br>Experience</h3>
                             </div>
                         </div>
                     </div>
@@ -284,10 +284,10 @@
                             <span>About our company</span>
                             <h2>Make the customer the hero of your story</h2>
                             <div class="caption-details">
-                                <p class="pera-dtails">Lorem ipsum dolor sit amet, consectetur adipisic- ing elit, sed
-                                    do eiusmod tempor inc. </p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+                                <p class="pera-dtails">At the heart of our company is a legacy of 8 years committed to empowering your experience. 
+                                    Our journey is built on a foundation of unwavering dedication, innovation, and a passion for exceeding expectations. </p>
+                                <p>We believe in creating meaningful moments for our customers, providing unmatched service, and embracing a spirit of continual improvement. 
+                                    Join us on this remarkable journey as we shape experiences that resonate.
                                 </p>
                                 <a href="#" class="btn more-btn1">Learn More <i class="ti-angle-right"></i>
                                 </a>
@@ -419,9 +419,13 @@
                             <div class="dining-caption">
                                 <span>Our resturent</span>
                                 <h3>Dining & Drinks</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br> tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br>veniam, quis
-                                    nostrud.</p>
+                                <p>Embark on a culinary journey where every bite tells a story, and every sip is a moment to savor.
+                                     Our carefully crafted dishes, inspired by local flavors and global influences, 
+                                     promise to tantalize your taste buds. Each meal is an artful blend of passion and perfection, designed to create memories that linger long after you've left our tables.</p>
+
+
+
+
                                 <a href="#" class="btn border-btn">Learn More <i class="ti-angle-right"></i>
                                 </a>
                             </div>
@@ -437,9 +441,13 @@
                             <div class="dining-caption text-right">
                                 <span>Our Pool</span>
                                 <h3>Swimming Pool</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br> tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br>veniam, quis
-                                    nostrud.</p>
+                                <p>Escape to a world of serenity and relaxation as you immerse yourself in the soothing embrace of our indoor swimming pool. 
+                                    Surrounded by elegant decor and tranquil ambiance, our pool offers a haven for both leisurely swims and refreshing moments of calm. 
+                                    Let the gentle sounds of water and the warm embrace of our inviting atmosphere wash away the stresses of the day.</p>
+
+
+
+
                                 <a href="#" class="btn border-btn">Learn More <i
                                         class="ti-angle-right"></i></a>
                             </div>
@@ -467,10 +475,8 @@
                                 </div>
                                 <!-- Testimonial Content -->
                                 <div class="testimonial-caption text-center">
-                                    <p>Yorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi.
-                                    </p>
+                                    <p>"Outstanding service! I thoroughly enjoyed my experience and would highly recommend it. 
+                                        The attention to detail and friendly staff made my stay truly memorable."</p>
                                     <!-- Rattion -->
                                     <div class="testimonial-ratting">
                                         <i class="fas fa-star"></i>
@@ -480,7 +486,7 @@
                                         <i class="fas fa-star"></i>
                                     </div>
                                     <div class="rattiong-caption">
-                                        <span>Clifford Frazier, <span>Regular Client</span> </span>
+                                        <span>Ryan Mitchell, <span>Regular Client</span> </span>
                                     </div>
                                 </div>
                             </div>
@@ -495,10 +501,7 @@
                                 </div>
                                 <!-- Testimonial Content -->
                                 <div class="testimonial-caption text-center">
-                                    <p>Yorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi.
-                                    </p>
+                                    <p>"Incredible stay! The atmosphere, the service, and the attention to guest satisfaction are unmatched. Can't wait to return!"</p>
                                     <div class="testimonial-ratting">
                                         <a href="#"><i class="fas fa-star"></i></a>
                                         <a href="#"><i class="fas fa-star"></i></a>
@@ -507,7 +510,7 @@
                                         <a href="#"><i class="fas fa-star"></i></a>
                                     </div>
                                     <div class="rattiong-caption">
-                                        <span>Clifford Frazier, <span>Regular Client</span> </span>
+                                        <span>Alex Rodriguez, <span>Regular Client</span> </span>
                                     </div>
                                 </div>
                             </div>
@@ -659,16 +662,16 @@
                                 <a href="#"><i class="fas fa-globe"></i></a>
                                 <a href="#"><i class="fab fa-whatsapp"></i></a>
                             </div>
-                            <div class="footer-pera">
-                                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            <div class="">
+                                {{-- <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                                     Copyright &copy;
                                     <script>
                                         document.write(new Date().getFullYear());
                                     </script> All rights reserved | This template is made with <i
                                         class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com"
-                                        target="_blank">Colorlib</a>
+                                        target="_blank">Akila Kodithuwakku</a>
                                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                                </p>
+                                </p> --}}
                             </div>
                         </div>
                     </div>
@@ -692,7 +695,7 @@
                                 <ul>
                                     <li><a href="#">Tel: 0817 123 880</a></li>
                                     <li><a href="#">Skype: Seabedbooking</a></li>
-                                    <li><a href="#">reservations@hotelriver.com</a></li>
+                                    <li><a href="#">reservations@hotelseabed.com</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -729,6 +732,8 @@
                     </div>
                 </div>
             </div>
+            <p style="text-align: center;">Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Akila Kodithuwakku</a></p>
+
         </div>
         <!-- Footer End-->
     </footer>

@@ -48,7 +48,9 @@ class MenuCategoryController extends Controller
      */
     public function edit(MenuCategory $menuCategory)
     {
-        //
+        return view('admin.menu_category.form', [
+            'menu_category' => $menuCategory,
+        ]);
     }
 
     /**
@@ -56,7 +58,8 @@ class MenuCategoryController extends Controller
      */
     public function update(UpdateMenuCategoryRequest $request, MenuCategory $menuCategory)
     {
-        //
+        $menuCategory->update($request->all());
+        return redirect()->route('menu-category.index')->with('success', 'User updated successfully!');
     }
 
     /**
@@ -66,6 +69,6 @@ class MenuCategoryController extends Controller
     {
         $menuCategory->delete();
 
-        return redirect()->route('menu-category.index');
+        return redirect()->route('menu-category.index')->with('success', 'User deleted successfully!');
     }
 }
