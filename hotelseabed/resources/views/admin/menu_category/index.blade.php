@@ -9,13 +9,13 @@
                     <strong class="font-bold">Success!</strong>
                     <span class="block sm:inline">{{ session('success') }}</span>
                     <span class="absolute top-0 bottom-0 right-0 px-4 py-3">
-                        <svg class="fill-current h-6 w-6 text-green-500" role="button" xmlns="http://www.w3.org/2000/svg"
+                        {{-- <svg class="fill-current h-6 w-6 text-green-500" role="button" xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 20 20">
                             <title>Close</title>
                             <path
                                 d="M14.348 5.652a.5.5 0 010 .707L9.707 10l4.641 4.641a.5.5 0 11-.707.707L9 10.707l-4.641 4.641a.5.5 0 11-.707-.707L8.293 10 3.652 5.359a.5.5 0 01.707-.707L9 9.293l4.641-4.641a.5.5 0 01.707 0z"
                                 clip-rule="evenodd" fill-rule="evenodd"></path>
-                        </svg>
+                        </svg> --}}
                     </span>
                 </div>
             @endif
@@ -73,8 +73,8 @@
                                         <td
                                             class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
                                             <div class="flex gap-3">
-                                                <a href="{{ route('menu-category.show', $menu_category->id) }}"
-                                                    class="rounded bg-white px-2 py-1 text-xs font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">Show</a>
+                                                {{-- <a href="{{ route('menu-category.show', $menu_category->id) }}" --}}
+                                                    {{-- class="rounded bg-white px-2 py-1 text-xs font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">Show</a> --}}
                                                 <a href="{{ route('menu-category.edit', $menu_category->id) }}"
                                                     class="rounded bg-white px-2 py-1 text-xs font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">Edit</a>
                                                 <form

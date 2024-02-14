@@ -12,7 +12,7 @@
                     @if ($user->id) action="{{ route('user.update', $user->id) }}" 
               @else
               action="{{ route('user.store') }}" @endif
-                    class="bg-white shadow-sm ring-1 ring-gray-900/5 sm:rounded-xl md:col-span-2">
+                    class="bg-white shadow-sm ring-1 ring-gray-900/5 sm:rounded-xl md:col-span-2 mx-10">
 
                     @csrf
                     @if ($user->id)

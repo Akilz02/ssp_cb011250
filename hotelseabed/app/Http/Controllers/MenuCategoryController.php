@@ -23,7 +23,9 @@ class MenuCategoryController extends Controller
      */
     public function create()
     {
-        return view('admin.menu_category.form');
+        return view('admin.menu_category.form', [
+        'menu_category' => new MenuCategory(),
+        ]);
     }
 
     /**
@@ -32,7 +34,7 @@ class MenuCategoryController extends Controller
     public function store(StoreMenuCategoryRequest $request)
     {
         (new MenuCategory())->create($request->all());
-        return redirect()->route('menu-category.index');
+        return redirect()->route('menu-category.index')->with('success', 'User created successfully!');
     }
 
     /**
